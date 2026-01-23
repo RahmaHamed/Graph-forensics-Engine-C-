@@ -1,0 +1,8 @@
+digraph G {
+  node [shape=circle, fontname="Arial"];
+  3 [label="Client_01"];
+  2 [label="Server_01"];
+  1 [label="a"];
+  0 [label="b"];
+  0 -> 1;
+}

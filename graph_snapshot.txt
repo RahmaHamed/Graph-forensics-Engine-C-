@@ -1,0 +1,4 @@
+NODE 2 boss default.png
+NODE 1 B default.png
+NODE 0 A default.png
+EDGE 0 2 1768388217

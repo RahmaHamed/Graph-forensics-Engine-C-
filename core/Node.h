@@ -1,22 +1,22 @@
-#pragma once
+#ifndef NODE_H
+#define NODE_H
 #include <string>
-#include <unordered_map>
+#include <map>
 #include <cstdint>
 
 namespace graph {
 class Node {
 public:
-    using NodeId = uint64_t;
-    using Metadata = std::unordered_map<std::string, std::string>;
-
-    explicit Node(NodeId id, std::string label = "")
-        : id_(id), label_(std::move(label)) {}
-
-    NodeId id() const noexcept { return id_; }
-    const std::string& label() const noexcept { return label_; }
+    Node(uint64_t id, std::string label) : id_(id), label_(label), image_path_("default.png") {}
+    uint64_t id() const { return id_; }
+    std::string label() const { return label_; }
+    void setImage(std::string path) { image_path_ = path; }
+    std::string image() const { return image_path_; }
+    std::map<std::string, std::string> properties;
 private:
-    const NodeId id_;
+    uint64_t id_;
     std::string label_;
-    Metadata metadata_;
+    std::string image_path_;
 };
 }
+#endif
