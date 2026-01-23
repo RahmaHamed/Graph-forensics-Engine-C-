@@ -1,0 +1,7 @@
+NODE 1 Alpha_Leader leader_img
+NODE 2 Beta_Leader leader_img
+NODE 3 Corrupt_Official gov_img
+NODE 4 Mule_Account bank_img
+EDGE 1 3 1706140800
+EDGE 2 3 1706140900
+EDGE 3 4 1706141000

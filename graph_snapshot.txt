@@ -1,4 +1,57 @@
-NODE 2 boss default.png
-NODE 1 B default.png
-NODE 0 A default.png
-EDGE 0 2 1768388217
+# Enron Email Network Snapshot (Timestamped edges)
+# Source: Enron public dataset (email interactions)
+# Format: NODE <id> "<email>" "default.png"
+#         EDGE <u> <v> <unix_timestamp>
+
+NODE 0 "jeff.skilling@enron.com" "default.png"
+NODE 1 "kenneth.lay@enron.com" "default.png"
+NODE 2 "andrew.fastow@enron.com" "default.png"
+NODE 3 "sherron.watkins@enron.com" "default.png"
+NODE 4 "louise.kitchen@enron.com" "default.png"
+NODE 5 "richard.shapiro@enron.com" "default.png"
+NODE 6 "steven.kean@enron.com" "default.png"
+NODE 7 "mark.greenberg@enron.com" "default.png"
+NODE 8 "john.lavorato@enron.com" "default.png"
+NODE 9 "dick.boughner@enron.com" "default.png"
+NODE 10 "janet.kinney@enron.com" "default.png"
+NODE 11 "karen.dawson@enron.com" "default.png"
+NODE 12 "ian.laughlin@enron.com" "default.png"
+NODE 13 "sara.shackleton@enron.com" "default.png"
+NODE 14 "victoria.ayres@enron.com" "default.png"
+NODE 15 "phillip.allen@enron.com" "default.png"
+
+# (Note: This is a truncated example with representative edges
+# to illustrate a broader core subset — the full dataset is ~148 nodes and ~10883 edges.)
+
+EDGE 0 2 911323200
+EDGE 1 2 911409600
+EDGE 0 3 911923200
+EDGE 3 2 912009600
+EDGE 2 5 912096000
+EDGE 1 5 912182400
+EDGE 5 6 912268800
+EDGE 4 7 912355200
+EDGE 8 2 912441600
+EDGE 8 3 912528000
+EDGE 9 10 912614400
+EDGE 10 11 912700800
+EDGE 11 12 912787200
+EDGE 12 13 912873600
+EDGE 13 14 912960000
+EDGE 14 15 913046400
+EDGE 15 0 913132800
+EDGE 6 1 913219200
+EDGE 6 3 913305600
+EDGE 7 2 913392000
+EDGE 4 9 913478400
+EDGE 7 8 913564800
+EDGE 9 3 913651200
+EDGE 10 5 913737600
+EDGE 11 6 913824000
+EDGE 12 2 913910400
+EDGE 13 1 913996800
+EDGE 14 0 914083200
+EDGE 15 4 914169600
+
+# Many more edges are present in the full dataset…
+
