@@ -70,3 +70,15 @@ make
 
 #  Run the engine
 ./graph_engine
+
+
+
+## Output Examples:
+
+<img width="1379" height="766" alt="image" src="https://github.com/user-attachments/assets/d59f8464-c4f4-4c89-8825-324c57caeb2e" />
+
+<img width="1486" height="975" alt="image" src="https://github.com/user-attachments/assets/7b405edb-4a4b-4904-9fa7-a479eaae2170" />
+
+<img width="1397" height="907" alt="image" src="https://github.com/user-attachments/assets/e7de69e3-735c-48df-b851-95d5727b77cb" />
+
+
