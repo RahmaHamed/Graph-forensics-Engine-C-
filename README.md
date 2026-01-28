@@ -1,9 +1,9 @@
-# 🕵️‍♂️ Graph Forensics & Security Engine
+#  Graph Forensics & Security Engine
 **A High-Performance C++ Framework for Digital Investigation & Network Analysis**
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 Traditional graph systems treat data as static snapshots. This **Forensics Engine** introduces a temporal (time-based) dimension, treating nodes as entities and edges as timed interactions. 
 
 By mimicking a **"Forensic Investigation Board,"** the engine allows users to reconstruct timelines, identify hidden conspiracies (cliques), and isolate threats within a network.
@@ -12,7 +12,7 @@ By mimicking a **"Forensic Investigation Board,"** the engine allows users to re
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 The engine is built with a modular, thread-safe C++ architecture designed for memory safety and efficiency.
 
 * **Core Logic:** Implemented with a decoupled design where `GraphStore` handles data and `CommandHandler` serves as the analytical brain.
@@ -22,7 +22,7 @@ The engine is built with a modular, thread-safe C++ architecture designed for me
 
 ---
 
-## 🛡️ Forensic & Security Toolset
+##  Forensic & Security Toolset
 
 ### **1. Relationship Analysis (`analyze`)**
 Calculates the probability of collaboration between two entities by analyzing shared neighbors and network overlap.
@@ -37,7 +37,7 @@ Acting as "Digital Handcuffs," this command severs all active connections for a 
 
 ---
 
-## 🚀 Command Reference
+##  Command Reference
 
 | Category | Command | Forensic Purpose |
 | :--- | :--- | :--- |
@@ -50,7 +50,7 @@ Acting as "Digital Handcuffs," this command severs all active connections for a 
 
 ---
 
-## 📊 Visualization & Persistence
+##  Visualization & Persistence
 The engine supports multiple formats for reporting and external analysis:
 * **Graphviz Integration:** Exports to `.dot` files for professional network mapping.
 * **JSON Export:** Generates structured data for web-based forensic dashboards (`index.html`).
@@ -60,7 +60,7 @@ The engine supports multiple formats for reporting and external analysis:
 
 ---
 
-## 🛠️ Build & Usage
+##  Build & Usage
 Ensure you have a C++17 compatible compiler (like GCC or Clang).
 
 This project uses a **Makefile** for optimized compilation. Ensure you have `g++` and `make` installed.
