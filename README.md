@@ -37,7 +37,7 @@ Acting as "Digital Handcuffs," this command severs all active connections for a 
 
 ---
 
-##  Command Reference
+##  Some Command Reference
 
 | Category | Command | Forensic Purpose |
 | :--- | :--- | :--- |
