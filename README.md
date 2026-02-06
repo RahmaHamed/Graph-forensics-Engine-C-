@@ -59,6 +59,26 @@ The engine supports multiple formats for reporting and external analysis:
 
 
 ---
+# 🔬 Advanced Research & Future Roadmap
+**1. "Zero-Knowledge" Soft Isolation**
+Currently, isolateNode physically removes edges. I am transitioning toward Soft Isolation.
+
+The Concept: Adding an is_active flag to the Edge class to "silence" connections without wiping underlying evidence.
+
+Research Value: This allows for non-destructive "what-if" simulations while maintaining a legal Chain of Custody.
+
+**2. Sigmoid-Based Temporal Decay**
+I am replacing linear confidence weights with a Sigmoid Decay Function to model how relationship probability decreases non-linearly over time:
+$$f(x) = \frac{1}{1 + e^{k(x - x_0)}}$$
+This provides a much more accurate "Confidence Score" for investigators looking at gaps between meetings or transactions.
+
+**3. Web-Scale Architecture**
+
+I plan to further leverage the Crow Web Framework to move beyond the CLI:
+
+Real-Time Dashboard: A React/D3.js frontend connected via WebSockets.
+
+JWT Authentication: Implementing middleware guards to secure forensic dossiers for authorized investigators only.
 
 ##  Build & Usage
 Ensure you have a C++17 compatible compiler (like GCC or Clang).
